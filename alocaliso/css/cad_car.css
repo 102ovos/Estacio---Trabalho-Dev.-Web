@@ -22,7 +22,6 @@
 
 body{
 	background: rgb(42,45,52);
-	background: linear-gradient(90deg, rgba(42,45,52,1) 0%, rgba(92,148,110,1) 50%);
 }
 
 #grad {
@@ -31,11 +30,12 @@ body{
 }
 
 .box{
-	width: 400px;
+	width: 700px;
 	padding: 40px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
+    border: 2px solid #04f34c;
 	transform: translate(-50%,-50%);
 	background: #191919;
 	text-align: center;
@@ -47,24 +47,40 @@ body{
 	font-weight: 500;
 }
 
-.box input[type = "text"],.box input[type = "password"]{
+.box input[type = "text"]{
 	border: 0;
 	background: none;
 	display: block;
 	margin: 20px auto;
 	text-align: center;
-	border: 2px solid #04f34c;
+	border: 2px solid #fff;
 	padding: 14px 10px;
-	width: 200px;
+	width: 400px;
 	outline: none;
 	color: white;
 	border-radius: 24px;
-	transition: 0.25s;
+	
 }
 
-.box input[type = "text"]:focus,.box input[type = "password"]:focus{
-	width: 280px;
-	border-color: var(--main-color);
+.box input.ano {
+    width: 150px;
+}
+
+.box input.descr{
+    width: 200px;
+}
+
+.box input[type = "text"]:focus {
+	width: 400px;
+	border-color: #04f34c;
+}
+
+.box input.ano:focus{
+    width: 150px;
+}
+
+.box input.descr:focus{
+    width: 200px;
 }
 
 .box input[type = "submit"]{
@@ -83,7 +99,7 @@ body{
 }
 
 .box input[type = "submit"]:hover{
-	background: var(--main-color);
+	background: #1b9640;
 }
 
 a{

@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alocaliso</title>
+    <title>Alocaliso | HOME</title>
     <!-- Link pro CSS-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!-- Link pro Box Icons-->
+	<!-- Link pros icones-->
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -18,11 +18,10 @@
             <!-- Menu Icon -->
             <i class='bx bx-menu' id="menu-icon"></i>
             <!-- Logo -->
-            <a href="#" class="logo">Aloca<span>liso</span></a>
+            <a href="index.php" class="logo">Aloca<span>liso</span></a>
             <!-- Nav List -->
             <ul class="navbar">
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#cars">Em Destaque</a></li>
+                <li><a href="#home">Alugue</a></li>
                 <li><a href="#about">Sobre Nós</a></li>
                 <li><a href="#blog">Blog</a></li>
             </ul>
@@ -33,62 +32,11 @@
         <div class="home-text">
             <h1>Do Jorge Teixeira à <br>Cidade de Deus. <br> Nossas <span>Ximbicas</span> vão <br>pra onde você precisar.</h1>
             <p>Pra quem não quer alugar um 'mobi' mas não<br> quer ir de ônibus.</p>
-            <a href="login.php" class="btn">Quero Alugar!</a>
+            <a href="aluguel_cliente.php" class="btn">Quero Alugar!</a>
         </div>
         <br><br>
-    </section>
-    <!-- Em Destaque -->
-    <section class="cars" id="cars">
-        <br><br><br>
-        <div class="heading">
-            <span>Carros em Destaque</span>
-            <h2>Para todos os gostos e tipos.</h2>
-            <p>Que tal aproveitar os carros que seus avós não paravam de falar sobre?</p>
-        </div>
-        <!-- Conteiner dos Carros -->
-        <div class="cars-container container">
-            
-            <!-- Box 1 -->
-            <div class="box">
-                <img src="img/carro1.jpg" alt="">
-                <h2>Audi A3</h2>
-            </div>
-
-            <!-- Box 2 -->
-            <div class="box">
-                <img src="img/carro2.jpg" alt="">
-                <h2>Chevrolet Chevet</h2>
-            </div>
-
-            <!-- Box 3 -->
-            <div class="box">
-                <img src="img/carro3.jpg" alt="">
-                <h2>Fiat Palio</h2>
-            </div>
-
-            <!-- Box 4 -->
-            <div class="box">
-                <img src="img/carro4.jpg" alt="">
-                <h2>Fiat Tempra</h2>
-            </div>
-
-            <!-- Box 5 -->
-            <div class="box">
-                <img src="img/carro5.jpg" alt="">
-                <h2>Volkswagen Fusca</h2>
-            </div>
-
-            <!-- Box 6 -->
-            <div class="box">
-                <img src="img/carro6.jpg" alt="">
-                <h2>Volkswagen Gol G4</h2>
-            </div>
-        </div>
-        <br><br>
-    </section>
-    
+    </section> 
     <!-- Sobre -->
-    
     <section class="about container" id="about">
     <br><br><br>
         <div class="about-img">

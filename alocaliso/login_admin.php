@@ -6,7 +6,7 @@
         print "<script>location.href='entrar_pagina.php';<script>";
     }
 
-    include("config2.php");
+    include("config.php");
 
     $email = $_POST["email"];
     $senha = $_POST["senha"];
@@ -21,8 +21,8 @@ $qtd = $res->num_rows;
 if($qtd > 0){
     $_SESSION["email"] = $email;
     $_SESSION["nome"]  = $row->nome;
-    
-    print "<script>location.href='aluguel_cliente.php';</script>";
+    $_SESSION["tipo"]  = $row->tipo;
+    print "<script>location.href='aluguel.php';</script>";
 } else{
     print "<script>alert('Usuário e/ou senha incorreto(s)');</script>";
     print "<script>location.href='entrar_pagina.php';</script>";
